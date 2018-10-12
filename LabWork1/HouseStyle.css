@@ -1,0 +1,288 @@
+[class*="class-0"]{
+    position: relative;
+}
+
+
+.class-02{
+    width: 200px;
+    height: 230px;
+    background: lightslategray;
+    left: 25px;
+    
+
+}
+
+.class-01{
+    height: 0;
+    width: 130px;
+    border-bottom: 60px solid silver;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+
+}
+.class-03{
+    width: 50px;
+    height: 90px;
+    background: brown;
+    top: 130px;
+    left: 40px;
+}
+
+.class-04{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    left: 110px;
+    top: 50px;
+}
+.class-05{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 35px;
+}
+.class-06{
+    width: 200px;
+    height: 7px;
+    background-color: coral;
+    bottom: 50px;
+
+}
+
+.class-07{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    bottom: 135px;
+    left: 60px;
+}
+.class-08{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 35px;
+}
+
+.class-09{
+    width: 120px;
+    height: 30px;
+    background: brown;
+    bottom: 160px;
+    left: 40px;
+}
+
+.class-0A{
+    width: 10px;
+    height: 5px;
+    position: relative;
+    background-color: black;
+    top: 45px;
+}
+
+.class-12{
+    width: 200px;
+    height: 230px;
+    background: lightslategray;
+    left: 30px;
+    top: 380px;
+    position: absolute;
+    
+
+}
+
+.class-11{
+    height: 0;
+    width: 130px;
+    border-bottom: 60px solid silver;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    top: 320px;
+    position: absolute;
+}
+.class-13{
+    width: 50px;
+    height: 90px;
+    background: brown;
+    top: 130px;
+    left: 40px;
+    position: absolute;
+}
+
+.class-14{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    left: 110px;
+    top: 140px;
+    position: absolute;
+}
+.class-15{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 35px;
+    position: absolute;
+}
+.class-16{
+    width: 200px;
+    height: 7px;
+    background-color: coral;
+    bottom: 115px;
+    position: absolute;
+
+}
+
+.class-17{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    bottom: 135px;
+    left: 60px;
+    position: absolute;
+}
+.class-18{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 35px;
+    position: absolute;
+}
+
+.class-19{
+    width: 120px;
+    height: 30px;
+    background: brown;
+    bottom: 130px;
+    left: 40px;
+    position: absolute;
+}
+
+.class-1A{
+    width: 10px;
+    height: 5px;
+    position: relative;
+    background-color: black;
+    top: 45px;
+    position: absolute;
+}
+
+.class-22{
+    width: 200px;
+    height: 230px;
+    background: lightslategray;
+    left: 30px;
+    top: 400px;
+    position: fixed;
+
+}
+
+.class-21{
+    height: 0;
+    width: 130px;
+    border-bottom: 60px solid silver;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    top: 340px;
+    position: fixed;
+}
+.class-23{
+    width: 50px;
+    height: 90px;
+    background: brown;
+    top: 510px;
+    left: 60px;
+    position: fixed;
+}
+
+.class-24{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    left: 140px;
+    top: 520px;
+    position: fixed;
+}
+.class-25{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 175px;
+    position: fixed;
+}
+.class-26{
+    width: 200px;
+    height: 7px;
+    background-color: coral;
+    bottom: 115px;
+    position: fixed;
+
+}
+
+.class-27{
+    width: 70px; 
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: chocolate;
+    background-color: lightblue;
+    bottom: 135px;
+    left: 90px;
+    position: fixed;
+}
+.class-28{
+    width: 3px;
+    height: 60px;
+    background-color: chocolate;
+    left: 130px;
+    position: fixed;
+}
+
+.class-29{
+    width: 120px;
+    height: 30px;
+    background: brown;
+    bottom: 130px;
+    left: 70px;
+    position: fixed;
+}
+
+.class-2A{
+    width: 10px;
+    height: 5px;
+    position: relative;
+    background-color: black;
+    top: 550px;
+    position: fixed;
+}
+
+.class-1{
+    width: 600px;
+    height: 600px;
+    background-color: burlywood
+}
+.class-2{
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+}
+
+.class-3{
+    width: 600px;
+    height: 600px;
+    background-color: blanchedalmond;
+}
