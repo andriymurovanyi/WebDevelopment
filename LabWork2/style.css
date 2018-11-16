@@ -99,7 +99,7 @@ header nav ul li a:hover {
 
  header nav li{
     display: inline-block;
-    padding-top: 45px;
+    top: 0px;
  }
 
  header nav a:hover {
@@ -210,24 +210,106 @@ header span{
     left: 100px;
 }
 
-main input[type="checkbox"]:checked > main .wrapper{
-    visibility: hidden;
-}
+
+
+
 
 /* View for mobile device(Tablet) */
-@media (max-width: 768px) and (max-height: 1024px){
+@media (max-width: 768px){
     header nav{
         width: 550px;
     }
 
-    .footer__section_menu nav {
+    /* .footer__section_menu nav {
         margin: 20px 30px;
+    } */
+}
+
+@media (orientation: Landscape) and (max-width: 667px){
+    header nav{
+        width: 480px;
     }
+
+    .footer__section_menu nav{
+        margin: unset;
+    }
+
+    
+}
+
+/* Landscape orientation (Smatphone) */
+@media (orientation: Landscape) and (max-width: 640px){
+    header nav{
+        width: 450px;
+    }
+
+    .footer__section_menu nav{
+        margin: unset;
+    }
+
+    
+
+    
 }
 
 
-/* View for mobile device(smartphone) */
-@media (max-width: 360px) and (max-height: 640px){
+
+@media (orientation: portrait) and (max-width: 375px){
+    header .logo{
+        position: relative;
+        left: 35%;
+    }
+
+    header nav{
+        width: 100%;
+        top: unset;
+        left: unset;
+    }
+
+    header nav a{
+        width: 60px;
+        
+    }
+
+    header nav a:hover{
+        background-color: unset;
+    }
+
+    .footer__section_menu nav{
+        margin: 10px;
+        padding-left: unset;
+    }
+
+    .img1{
+        position: relative;
+        left: 5%;
+    }
+    .img2{
+        position: relative;
+        float:left;
+        
+    }
+
+    main .content h2{
+        text-align: center;
+    }
+
+    footer .content{
+        height: 100px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+/* View for mobile device(smartphone). Orientation - Portrait */
+@media (max-width: 360px)  
+    and (orientation: portrait){
     
 
     .img1{
@@ -250,8 +332,8 @@ main input[type="checkbox"]:checked > main .wrapper{
         left: -1px;
     }
 
-    header nav li{
-        margin: -20px;
+    header nav a{
+        width: 100%;
     }
 
     
@@ -274,8 +356,15 @@ main input[type="checkbox"]:checked > main .wrapper{
         left: 35%;
     }
 
+    header nav a:hover {
+        background-color: unset;
+    }
+
 
 }
+
+
+
 
 
 
