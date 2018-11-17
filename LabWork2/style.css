@@ -50,8 +50,6 @@ header nav {
 
 header nav a {
     color: #fff;
-    padding: 5px 10px;
-    
     font-weight: bold;
     display: inline-block;
     width: 100px;
@@ -59,51 +57,30 @@ header nav a {
 
 header nav {
     float:left; 
-    
+    height: 55px;
     position:relative;
     left: 10%;
     } 
     
-header nav ul {
-    margin:0;
-    padding:0; float:left;
-    position:relative; 
-    left:50%;
-    } 
     
-header nav ul li {
-    margin-top: 10px;
-    bottom: 45px;
-    float:left;
-    list-style:none; 
-    position:relative; 
-    right:50%;
-    } 
-    
-header nav ul li a {
+header nav a {
     font-size: 10px;
     color: #686868;
-    display:block;
-    padding:10px 20px;
+    display:inline-block;
+    padding:20px;
     text-decoration:none;
     text-transform:uppercase;
     }
     
-header nav ul li a:hover {
+header nav a:hover {
+    
     color: #111111;
     text-decoration:underline;
     }
 
 
-
-
- header nav li{
-    display: inline-block;
-    top: 0px;
- }
-
  header nav a:hover {
-	border-radius: 20px 5px;
+	border-radius: 20px 5px ;
 	background-color: #0066FF;
     }
 
@@ -157,7 +134,6 @@ main p{
 }
 
 .footer__row > *, .footer__section_menu nav {
-    float: left;
     list-style: none;
     
 }
@@ -168,6 +144,7 @@ main p{
 }
 
 .footer__section_menu nav{
+    padding: 5px;
     margin: 0 50px;
     padding-left: 70px;
 }
@@ -182,8 +159,10 @@ footer nav a:hover{
 
 
 
-.footer__section_menu nav ul li a{
+.footer__section_menu nav a{
     text-decoration: none;
+    margin-left: 120px;
+    
 }
 
 main .content{
@@ -247,7 +226,9 @@ header span{
         margin: unset;
     }
 
-    
+    .footer__section_menu nav a{
+        margin-left: 80px;
+    }
 
     
 }
@@ -276,8 +257,9 @@ header span{
     }
 
     .footer__section_menu nav{
-        margin: 10px;
+        margin: 2px;
         padding-left: unset;
+        padding: unset;
     }
 
     .img1{
@@ -298,7 +280,9 @@ header span{
         height: 100px;
     }
 
-    
+    .footer__section_menu nav a{
+        margin-left: 15px;
+    }
 
 }
 
@@ -332,9 +316,7 @@ header span{
         left: -1px;
     }
 
-    header nav a{
-        width: 100%;
-    }
+    
 
     
 
@@ -350,7 +332,6 @@ header span{
         float: none;
     }
 
-
     header .logo{
         position: relative;
         left: 35%;
@@ -359,8 +340,6 @@ header span{
     header nav a:hover {
         background-color: unset;
     }
-
-
 }
 
 
