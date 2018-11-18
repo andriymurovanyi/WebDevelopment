@@ -211,6 +211,11 @@ header span{
 
     .footer__section_menu nav{
         margin: unset;
+        padding: 2px;
+    }
+
+    .footer__section_menu nav a{
+        margin-left: 90px;
     }
 
     
@@ -224,6 +229,7 @@ header span{
 
     .footer__section_menu nav{
         margin: unset;
+        
     }
 
     .footer__section_menu nav a{
