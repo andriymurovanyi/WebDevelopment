@@ -353,6 +353,10 @@ footer{
     .desc{
         text-align: center;
     }
+
+    .all_form{
+        margin-left: unset;
+    }
 }
 
 /* Phone screen */
@@ -369,6 +373,7 @@ footer{
 
     .all_form{
         width: 320px;
+        margin-left: unset;
     }
 
     input[type="text"], 
