@@ -1,11 +1,11 @@
-console.log("Task 1: ")
+﻿console.log("Task 1: ")
 var secondsTotal = 234245645335;
 var secondsInHour = 3600;
-var secondInMinute = 60;
+var secondsInMinute = 60;
 var result = secondsTotal % secondsInHour;
 
 console.log(result + " seconds left");
-console.log(result / secondInMinute+ " hours left");
+console.log(result / secondsInMinute + " minutes left");
 
 
 console.log("==============================")
@@ -39,7 +39,7 @@ function showTask1(){
     var task1 = document.getElementById("task1")
     task1.style.display = "block";
     task1.innerHTML = result + " seconds left; \n" + 
-    parseInt(result / secondInMinute) + " hours left";
+    parseInt(result / secondsInMinute) + " minutes left";
     
     
 }
