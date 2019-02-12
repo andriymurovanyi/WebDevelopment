@@ -34,11 +34,20 @@ function processFiles(files){
         reader.readAsText(file);
     };
 }
+
 function showTask1(){
     var task1 = document.getElementById("task1")
     task1.style.display = "block";
     task1.innerHTML = result + " seconds left; \n" + 
     parseInt(result / secondInMinute) + " hours left";
+    
+    
+}
+
+function showTask2(){
+    var task2 = document.getElementById("task2")
+    task2.style.display = "block";
+    task2.innerHTML = "The indexes of 'a': " + listInd;
     
     
 }
