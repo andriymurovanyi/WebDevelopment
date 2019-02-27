@@ -1,26 +1,32 @@
-﻿console.log("Task 1: ")
+﻿//  Task 1 solution.
+console.log("Task 1: ");
 var secondsTotal = 234245645335;
 var secondsInHour = 3600;
 var secondsInMinute = 60;
 var result = secondsTotal % secondsInHour;
 
-console.log(result + " seconds left");
-console.log(result / secondsInMinute + " minutes left");
+console.log(`${result} seconds left`);
+console.log(`${result / secondsInMinute} minutes left`);
+console.log(`${result / secondsInMinute / 60} hours left`);
 
 
 console.log("==============================")
+// ===========================================================
 
+
+// Task 2 solution.
 console.log("Task 2: ")
 var string = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at";
 var listInd = [];
 
 for (var i = 0; i < string.length; i++){
-    if (string[i] == "a"){
-        listInd.push(i);
-    }
+    string[i] == "a" ? listInd.push(i) : NaN;
 }
 
+
 console.log("The indexes of 'a': " + listInd);
+// ===========================================================
+
 
 
 function processFiles(files){
