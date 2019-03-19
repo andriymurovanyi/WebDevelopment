@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alarm{
+    background-color: red;
+    color: #fff; 
+}
+
+.alarm_form{
+    width: 350px;
+    height: 250px;
+    background: #e3e3e3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#close_alarm{
+
+    position: absolute;
+    right: 5%;
+
+    cursor: pointer;
+}
+
+.inputs{
+    margin-top: 40px;
+}
+
+.visible{
+    display: block;
+
+}
+
+.invisible{
+ display: none;
+}
+
+.reg{
+    margin-top: 20px;
+}
