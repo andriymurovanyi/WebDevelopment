@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<p>Text: </p><input id="inp" type="text">
+<input id="sub" type="submit">
+</body>
+<script>
+    $("#sub").click(function () {
+        $.ajax({
+            type: "GET",
+            url: "/get_info",
+            data: {
+                "info": $("#inp").val()
+            },
+            success: function (res) {
+                console.log(res + "1234");
+            }
+        })
+    })
+</script>
+</html>
