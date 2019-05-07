@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="myApplication">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/angular.min.js" defer></script>
+    <script src="js/lib/angular-route.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <script src="js/controllers/controller1.js" defer></script>
+    <script src="js/controllers/controller2.js" defer></script>
+</head>
+<body>
+    <nav><a href="#!first">First input</a>  |  <a href="#!second">Second input</a></nav>
+    <ng-view></ng-view>
+</body>
+</html>
