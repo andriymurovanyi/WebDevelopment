@@ -26,8 +26,7 @@ function get_data(){
 
     if (login_field.value.trim().length === 0 || !r){
         alert("E-mail missed or incorrect!")
-    }
-    else{
+    } else {
         const login = login_field.value;
         
         if (password_field.value.trim().length < 6){
@@ -37,8 +36,7 @@ function get_data(){
             
             if (password_field.value.trim() !== confirm_field.value.trim()){
                 alert("Passwords different! ")
-            }
-            else {
+            } else {
                 const confirmed_password = password_field.value;
                 console.log('Yes!');
                 console.log(login + "\n" + password +
