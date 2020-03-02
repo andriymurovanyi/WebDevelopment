@@ -1,8 +1,7 @@
-let open_button = document.getElementById("alarmButton");
-let close_button = document.getElementById("close_alarm");
-let reg_button = document.getElementById("regButton");
-let alarmForm = document.getElementById("alarmForm");
-
+const open_button = document.getElementById("alarmButton");
+const close_button = document.getElementById("close_alarm");
+const reg_button = document.getElementById("regButton");
+const alarmForm = document.getElementById("alarmForm");
 
 
 open_button.addEventListener("click", function () {
@@ -19,28 +18,28 @@ close_button.addEventListener("click", function () {
 });
 
 function get_data(){
-    let login_field = document.getElementById("login_field");
-    let password_field = document.getElementById("password_field");
-    let confirm_field = document.getElementById("confirm_field");
-    let login, password, confirmed_password;
+    const login_field = document.getElementById("login_field");
+    const password_field = document.getElementById("password_field");
+    const confirm_field = document.getElementById("confirm_field");
 
-    var r = login_field.value.match(/^[0-9a-z-\.]+\@[0-9a-z-]{2,}\.[a-z]{2,}$/);
+    const r = login_field.value.match(/^[0-9a-z-\.]+\@[0-9a-z-]{2,}\.[a-z]{2,}$/);
 
     if (login_field.value.trim().length === 0 || !r){
         alert("E-mail missed or incorrect!")
     }
     else{
-        login = login_field.value;
+        const login = login_field.value;
+        
         if (password_field.value.trim().length < 6){
             alert("Password must be at least of 6 symbols!")
-        }
-        else{
-            password = password_field.value;
+        } else {
+            const password = password_field.value;
+            
             if (password_field.value.trim() !== confirm_field.value.trim()){
                 alert("Passwords different! ")
             }
             else {
-                confirmed_password = password_field.value;
+                const confirmed_password = password_field.value;
                 console.log('Yes!');
                 console.log(login + "\n" + password +
                     "\n" + confirmed_password);
@@ -49,42 +48,6 @@ function get_data(){
         }
     }
 }
-
-// alarmForm.onmousedown = function(e) {
-//
-//     let coords = getCoords(alarmForm);
-//     let shiftX = e.pageX - coords.left;
-//     let shiftY = e.pageY - coords.top;
-//
-//     alarmForm.style.position = 'absolute';
-//     document.body.appendChild(alarmForm);
-//     moveAt(e);
-//
-//     alarmForm.style.zIndex = 1000; // над другими элементами
-//
-//     function moveAt(e) {
-//         alarmForm.style.left = e.pageX - shiftX + 'px';
-//         alarmForm.style.top = e.pageY - shiftY + 'px';
-//     }
-//
-//     document.onmousemove = function(e) {
-//         moveAt(e);
-//     };
-//
-//     alarmForm.onmouseup = function() {
-//         document.onmousemove = null;
-//         alarmForm.onmouseup = null;
-//     };
-//
-// };
-//
-// function getCoords(elem) {   // кроме IE8-
-//     let box = elem.getBoundingClientRect();
-//     return {
-//         top: box.top + pageYOffset,
-//         left: box.left + pageXOffset
-//     };
-// }
 
 reg_button.addEventListener("click", get_data);
 
